@@ -1,5 +1,34 @@
 //Functions
 
+//Function Declaration
+/*
+greet("lena")
+function greet(name) {
+    console.log("Hello", name);
+}
+*/
+//function Expresion
+/*
+let greett =function greett(name) {
+    console.log("Hello", name);
+}
+greett("Lena")
+*/
+//Arrow Function
+/*
+let greettt =(name) => {
+    console.log("Hello", name);
+}
+greettt("Lllena")
+
+let greetttt =(name) => console.log("Hello", name);
+greettt("VAsea")
+
+let summ = (a, b) => a + b ;
+console.log(summ(1, 5));
+
+*/
+
 // 1 CallBack
 
 /*function calcSumm(numOne, numTwo, more, less,) {
@@ -26,11 +55,13 @@ calcSumm (11, 5, showMore, showLess);
 function summ(numFirst, numSecond) {
     if (numSecond ===1) {
         return numFirst;
-    } else {
+    } else { 
         return numFirst * summ(numFirst, numSecond -1);
     }
  }
 console.log(summ(5, 3));*/
+
+// 3
 
 ////////////////22222222222222/////////////////?????????
 //https://htmllab.ru/zadachi-po-javascript/
