@@ -1,4 +1,4 @@
-//Functions
+//  ----------  Functions    ----------  //
 
 //Function Declaration
 /*
@@ -7,6 +7,7 @@ function greet(name) {
     console.log("Hello", name);
 }
 */
+
 //function Expresion
 /*
 let greett =function greett(name) {
@@ -14,6 +15,7 @@ let greett =function greett(name) {
 }
 greett("Lena")
 */
+
 //Arrow Function
 /*
 let greettt =(name) => {
@@ -26,10 +28,11 @@ greettt("VAsea")
 
 let summ = (a, b) => a + b ;
 console.log(summ(1, 5));
-
 */
 
-// 1 CallBack
+
+//  ----------  CallBack    ----------  //
+
 
 /*function calcSumm(numOne, numTwo, more, less,) {
     let numSumm = numOne + numTwo;
@@ -50,7 +53,8 @@ function showLess() {
 calcSumm (11, 5, showMore, showLess);
 
 
-// 2 Recursive ?????????????????
+//  ----------  Recursive    ----------  //
+
 
 function summ(numFirst, numSecond) {
     if (numSecond ===1) {
@@ -61,7 +65,7 @@ function summ(numFirst, numSecond) {
  }
 console.log(summ(5, 3));*/
 
-// 3
+
 
 ////////////////22222222222222/////////////////?????????
 //https://htmllab.ru/zadachi-po-javascript/
@@ -84,4 +88,65 @@ calcSumm ("Vasile", helloName, helloGuest);*/
 
 ////////////////222222222222//////////????????????????
 
+
+//  ----------  Objects    ----------  //
+
+
+// let person = {
+//     name: "Gigison",
+//     age: 31,
+//     languages: ["EN", "RU", "RO"],
+//     greet: function() {
+//         console.log("greet from person");
+//     }
+// }
+
+////////////////////////////////////
+// console.log(person.name);
+// console.log(person.age);
+// person.greet()
+//////////////OR // Easier////////////
+// let {name, age, languages} = person;
+// console.log(name, age, languages);
+/////////////////////////////////////
+
+
+//  ----------  Promises    ----------  //
+
+// let p = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         console.log("Preparing data...");
+//         let backendData = {
+//             server: "aws",
+//             port: 2000,
+//             status: "working"
+//         }
+//         resolve(backendData)
+//     }, 1000)
+// })
+
+// p.then((data)=> {
+//     console.log("Promise Resolved", data);
+// })
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+// let p = new Promise ((resolve, reject) => {
+//     let a = 1 + 3;
+//     if (a == 2) {
+//         resolve("Success");
+//     } else {
+//         reject("Failed");
+//     }
+// })
+
+// p.then((resolve) => {
+//     console.log("this in the then " + resolve);
+// }).catch((reject) => {
+//     console.log("this is in catch " + reject);
+// })
+
+///////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////
 
