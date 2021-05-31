@@ -150,3 +150,46 @@ calcSumm ("Vasile", helloName, helloGuest);*/
 ///////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////
 
+
+//////////  ----------    Async Await     ----------  //////////
+
+// async function f1(a, b) {
+//     let summ = await a + b ;
+//     console.log(summ(1, 5));
+//     return res.text();
+// }
+
+// async function f2(a, b) {
+//     let summ = await a + b ;
+//     console.log(summ(1, 5));
+//     return res.text();
+// }
+
+// async function f3(a, b) {
+//     let summ = await a + b ;
+//     console.log(summ(1, 5));
+//     return res.text();
+// }
+
+
+// async function go() {
+//     let a = await f1();
+//     console.log(a);
+//     let b = await f2();
+//     console.log(b);
+//     let c = await f3();
+//     console.log(c);
+// }
+
+// go();
+
+// async function f1() {
+//     const response = await makeRequest("Google") 
+//     console.log("Response Recived")
+//     let pResponse = await processRequest(response)
+//     console.log(pResponse)
+// };
+
+// f1();
+
+
