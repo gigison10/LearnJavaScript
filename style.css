@@ -3,15 +3,35 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
 .container {
     display: flex;
-    padding: 50px;
+    padding: 20px;
     justify-content: center;
     justify-items: center;
-    
-
 }
+
+.container2 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container3 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container4 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+
 
