@@ -3,34 +3,42 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
-.container {
-    display: flex;
-    padding: 20px;
+body {
+    display: grid;
     justify-content: center;
     justify-items: center;
 }
 
-.container2 {
-    display: flex;
+.container, .container2, .container3, .container4, .blok5,
+.out10
+{
+    display: grid;
     padding: 20px;
     justify-content: center;
     justify-items: center;
+    width: 400px;
+    border: solid 2px;
 }
 
-.container3 {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    justify-items: center;
+
+
+.two {
+    font-weight: bolder;
 }
 
-.container4 {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    justify-items: center;
+.tree {
+    color: rgb(255, 255, 255);
+}
+
+.four {
+    border: solid 3px;
+}
+
+.five {
+    display: none;
 }
 
 
