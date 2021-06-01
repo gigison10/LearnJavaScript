@@ -186,3 +186,77 @@ for (let i = 0; i < c.length; i++) {
 console.log("Summary " + summ);
 
 // document.querySelector(".out10").innerHTML = out10;
+
+//////////////////////////////////////
+
+// array.push(12, 13); // adding elements in array to the end
+// array.pop(); // deleting last element from array
+// delete array[3];//3 is deleting index No 3
+// array.splice(2, 3 "hi" hi is going after si deleting 3 indexes from 2);// 2 is index to start from 3 is how many after (but is recounting indexes again)
+//shift unshift
+
+//////////// 2 Dimensional Arrays ////////////
+// https://itgid.info/unit/javascript-2?unit=array-in-array-js
+
+///////////// associate array ///////////
+
+// let arr3 = { // in  this case we can name our indexes however we want
+//     "a" : 5,
+//     "b" : "hello",
+//     "c" : "hi",
+//     t34 : 3467,
+//  //q1 g : werw3, //is not ok because of space
+//  "q1 g" : "werw3",
+// };
+// arr3.c = "HE hey hi" //changing index c
+// console.log(arr3);
+// console.log(arr3.b);
+// let kk = "c";        // appling index c to kk
+// console.log(arr3[kk]);
+
+// https://itgid.info/unit/javascript-2?unit=object-js
+
+///~~~~~~~~~~~~~~~ Lesson 7 ~~~~~~~~~~~~~~~///
+///~~~~~~~~~~~~~~~ Set ~~~~~~~~~~~~~~~///
+
+// let set = new Set();
+// set.add(1);
+// set.add(2);
+// set.add("Hello");
+// set.add("1");
+// set.clear();
+// set.delete("Hello"); deletind a specified element
+// console.log(set);
+// console.log(set.size);
+// console.log(set.has(2)); //check if we have 2 in Set
+
+// for (let i of set) {
+//     console.log(i);
+// }
+
+// let arra = [1, 45, 56, 57, "hell", 1, 45]
+// let arrb = new Set(arra);
+// console.log(arrb);
+
+// let arrc = Array.from(arrb)
+// console.log(arrc[2]);
+
+///~~~~~~~~~~~~~~~ Lesson 8 ~~~~~~~~~~~~~~~///
+///~~~~~~~~~~~~~~~ For, For In, For Of ~~~~~~~~~~~~~~~///
+
+// let arra = [1, 45, 56, 57,]
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arra);
+// };
+
+// for (let i in arra) {
+//     console.log(arra[2]);
+// };
+
+// for (let i of arra) {
+//     console.log(i);
+// };
+
+///~~~~~~~~~~~~~~~ Lesson 8 ~~~~~~~~~~~~~~~///
+///~~~~~~~~~~~~~~~ For, For In, For Of ~~~~~~~~~~~~~~~///
