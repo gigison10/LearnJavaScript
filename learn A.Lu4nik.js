@@ -258,5 +258,71 @@ console.log("Summary " + summ);
 //     console.log(i);
 // };
 
-///~~~~~~~~~~~~~~~ Lesson 8 ~~~~~~~~~~~~~~~///
-///~~~~~~~~~~~~~~~ For, For In, For Of ~~~~~~~~~~~~~~~///
+///~~~~~~~~~~~~~~~ Lesson 9 ~~~~~~~~~~~~~~~///
+///~~~~~~~~~~~~~~~ Map Filter ~~~~~~~~~~~~~~~///
+
+// let arrA = [1, "45", "56", 57,]
+// let arrB = arrA.map((items, index) => {
+//     return items * 5;
+// })
+// console.log(arrB);
+
+//~~~~~~~~~~~~~~~~~~~the same map functions difirent syntasix~~~~~~~~~~~~~~~~~~~~~~~~~
+
+// let arrB = arrA.map(items => items);
+// console.log(arrB);
+
+/////////////////~~~Filter~~~///////////////////
+
+// let arrC = arrA.filter((items, index) => {
+//     if (items % 2 == 0) {
+//         return true ;
+//     }
+// })
+
+// console.log(arrC);
+
+//~~~~~~~~~~~   Split Join forEach ~~~~~~~~~~~~~~//
+
+// let  aA = "hello,hi,mihai";
+// console.log(aA.split(","));   //////  , is separator
+
+// let aB = [8, 2, 5];
+// console.log(aB);    
+// console.log(aB.join("-"));  ///// as default separator is , (if () is empty) // join converts array to string
+
+// aB.forEach((elements, index) => {
+//     console.log(elements * 5);
+//     console.log(index);
+// })
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+///~~~~~~~~~~~~~~~ Lesson 10 ~~~~~~~~~~~~~~~///
+///~~~~~~~~~~~~~~~ Local Storage ~~~~~~~~~~~~~~~///
+
+// localStorage.setItem("data", 5);
+// console.log(localStorage.getItem("data"));
+
+// let bA = [3, 4, 5]
+// localStorage.setItem("bA", bA);
+// let bB = localStorage.getItem("bA")
+// console.log(bB);
+// console.log(bB[0]);
+
+
+///~~~~~~~~~~~~~~~ Lesson 11 ~~~~~~~~~~~~~~~///
+///~~~~~~~~~~~~~~~ Recursive ~~~~~~~~~~~~~~~///
+
+let cA = 1;
+
+function rec() {
+    cA++
+    console.log(cA);
+    if (cA > 10) {
+        return cA;
+    }
+    rec();
+}
+
+rec();
