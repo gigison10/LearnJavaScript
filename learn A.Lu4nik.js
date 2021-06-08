@@ -314,15 +314,13 @@ console.log("Summary " + summ);
 ///~~~~~~~~~~~~~~~ Lesson 11 ~~~~~~~~~~~~~~~///
 ///~~~~~~~~~~~~~~~ Recursive ~~~~~~~~~~~~~~~///
 
-let cA = 1;
-
-function rec() {
-    cA++
-    console.log(cA);
-    if (cA > 10) {
-        return cA;
-    }
-    rec();
-}
-
-rec();
+// let cA = 1;
+// function rec() {
+//     cA++
+//     console.log(cA);
+//     if (cA > 10) {
+//         return cA;
+//     }
+//     rec();
+// }
+// rec();
