@@ -1,0 +1,66 @@
+.tasks {
+  border-radius: 10px;
+  background-color: #80BD9e;
+  height: auto;
+  max-width: 380px;
+}
+
+.addTask {
+  display: grid;
+  padding: 10px;
+  margin: 10px;
+  display: inline;
+}
+
+
+
+
+.addTask form {
+  justify-content: center;
+}
+
+.addedTasks {
+  border: solid 3px white;
+  border-radius: 10px;
+  background-color: #89DA59;
+  height: 27px;
+  max-width: 380px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(24, 102, 22);
+}
+
+.formTask {
+  display: grid;
+  grid-template-columns: 83% 14%;
+  padding: 5px;
+}
+
+input {
+  border: solid 3px white;
+  
+  background-color: #89DA59;
+  height: 27px;
+  font-weight: bold;
+  color: rgb(24, 102, 22);
+  font-size:14px;
+}
+
+.addbtn {
+  /* padding: 22px; */
+  border-radius: 50px;
+  /* text-align: center; */
+  font-size: 38px;
+  height: 50px;
+  width: 50px;
+  
+}
+
+.input {
+  max-width: 275px;
+  padding: 9px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}

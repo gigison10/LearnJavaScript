@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+body {
+  line-height: 1;
+  font-size: 16px;
+  background: #f3f3f3;
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #487922;
+  text-decoration: none;
+}
+main, .siteContent{
+  background: #fff;
+  box-shadow: 0 2px 4px 0 #252525;
+  padding: 30px 20px;
+}
+
+.block {
+  position: relative;
+  padding: 20px 15px 20px 20px;
+  border: 1px solid rgb(167, 167, 167);
+  border-top: 1px splid #487922;
+  background: #f3f3f3;
+  margin: 20px;
+}
+
+.block div {
+  margin-bottom: 20px;
+}
+
+.calcRes {
+  font-size: 1.2em;
+}
+.calcRes li {
+  margin: 10px 0;
+}

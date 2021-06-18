@@ -1,17 +1,17 @@
 ///~~~~~~~~~~~~~~~ Lesson 1 ~~~~~~~~~~~~~~~///
 
-let inputIn = document.querySelector(".inputIn");
-let button = document.querySelector(".button");
-let div = document.querySelector(".out");
+// let inputIn = document.querySelector(".inputIn");
+// let button = document.querySelector(".button");
+// let div = document.querySelector(".out");
 
-button.onclick = function (){
-    console.log("Working");
-    // console.log(inputIn.value);
-    let b = +inputIn.value; // + before is for make numbers from string (by default inputIn gets only string)
-    console.log(b + 10);
-    div.innerHTML = b;
-    inputIn.value = ""; // input value cleaner
-};
+// button.onclick = function (){
+//     console.log("Working");
+//     // console.log(inputIn.value);
+//     let b = +inputIn.value; // + before is for make numbers from string (by default inputIn gets only string)
+//     console.log(b + 10);
+//     div.innerHTML = b;
+//     inputIn.value = ""; // input value cleaner
+// };
 
 ///~~~~~~~~~~~~~~~ Lesson 2 ~~~~~~~~~~~~~~~///
 ///~~~~~~~~~~~~~~~ If Else Switch ~~~~~~~~~~~~~~~///
@@ -42,17 +42,17 @@ button.onclick = function (){
 // //     }
 // }
 
-const button2 = document.querySelector(".button2");
-const input = document.querySelector(".age");
-const input2 = document.querySelector(".age2");
+// const button2 = document.querySelector(".button2");
+// const input = document.querySelector(".age");
+// const input2 = document.querySelector(".age2");
 
-button2.onclick = () => {
-    if (+input.value > +input2.value) {
-        console.log(input.value);
-    } else {
-        console.log(input2.value);
-    }
-}
+// button2.onclick = () => {
+//     if (+input.value > +input2.value) {
+//         console.log(input.value);
+//     } else {
+//         console.log(input2.value);
+//     }
+// }
 
 
 ///~~~~~~~~~~~~~~~ Lesson 3 ~~~~~~~~~~~~~~~///

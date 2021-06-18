@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.taskManager {
+  display: grid;
+  padding: 10px;
+
+}
+
+header {
+  padding: 10px;
+ 
+}
+
+.addTask {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}

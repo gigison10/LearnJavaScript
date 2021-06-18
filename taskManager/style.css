@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body { 
+    margin: auto;
+}
+
+.taskManager {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    justify-items: center;
+}
+  
+header {
+    padding: 10px;
+    text-align: center;
+}
+  
+.tasks {
+    border: solid 1px;
+    height: auto;
+    max-width: 380px;
+}
+  
+.addTask {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.addedTasks {
+    padding: 10px;
+    margin: 10px;
+}
+  

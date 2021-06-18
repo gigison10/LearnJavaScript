@@ -1,0 +1,34 @@
+.calendar {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.calForm {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+input {
+  background-color: #89DA59;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(24, 102, 22);
+  font-size:14px;
+}
+
+.today {
+  height: 50px;
+  width:180px;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+}
+
+.tomorrow {
+  height: 50px;
+  width:180px;
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+
+}

@@ -1,0 +1,22 @@
+.headerNav {
+  background-color: #3b621c;
+}
+
+.headerNav li {
+  display: inline-block;
+  padding: 15px 25px 15px;
+}
+
+.headerNav li a, .headerNav li a:visited {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.headerNav li:hover {
+  background: #487922;
+}
+
+ul {
+  margin: 0;
+}
